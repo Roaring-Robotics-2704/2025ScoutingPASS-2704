@@ -93,6 +93,10 @@ var config_data = `
       "code": "ans",
       "type": "counter"
     }
+    { "name": "Remove Algae?",
+      "code": "ara",
+      "type": "bool"
+    },
   ],
   "teleop": [
     { "name": "Coral L1",
@@ -129,10 +133,6 @@ var config_data = `
         "x": "Not Attempted"
       },
       "defaultValue": "x"
-    },
-    { "name": "Scored in<br>Opponent<br>Processor",
-      "code": "opp",
-      "type": "bool"
     }
   ],
   "endgame": [
@@ -145,7 +145,7 @@ var config_data = `
       "type":"radio",
       "choices": {
         "bp": "Parked<br>",
-        "ba": "Parked/Failed Climb<br>",
+        "ba": "Failed Climb<br>",
         "bs": "Shallow Cage<br>",
         "bd": "Deep Cage<br>",
         "x": "Not attempted"
@@ -154,10 +154,10 @@ var config_data = `
     }
   ],
   "postmatch": [
-    { "name": "Attained Coopertition Pt",
-      "code": "cop",
+    { "name": "Scored in<br>Opponent<br>Processor",
+      "code": "opp",
       "type": "bool"
-    },
+    }
     { "name": "Algae Left in Reef",
       "code": "alr",
       "type": "number",
@@ -176,6 +176,10 @@ var config_data = `
       },
       "defaultValue": "x"
     },
+    { "name": Excessive Penalties?",
+      "code" : "ep",
+      "type" : "bool"
+    },
     { "name": "Defense Rating",
       "code": "dr",
       "type": "radio",
@@ -188,32 +192,12 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Speed Rating",
-      "code": "sr",
-      "type": "radio",
-      "choices": {
-        "1": "1 (slow)<br>",
-        "2": "2<br>",
-        "3": "3<br>",
-        "4": "4<br>",
-        "5": "5 (fast)"
-      },
-      "defaultValue":"3"
-    },
     { "name": "Died/Immobilized",
       "code": "die",
       "type": "bool"
     },
     { "name": "Tippy<br>(almost tipped over)",
       "code": "tip",
-      "type": "bool"
-    },
-    { "name": "Dropped Coral (>2)",
-      "code": "dc",
-      "type": "bool"
-    },
-    { "name": "Dropped Algae (>2)",
-      "code": "da",
       "type": "bool"
     },
     { "name": "Make good<br>alliance partner?",
