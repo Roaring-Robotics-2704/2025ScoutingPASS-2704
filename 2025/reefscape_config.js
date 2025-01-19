@@ -123,6 +123,10 @@ var config_data = `
       "code": "tns",
       "type": "counter"
     },
+    { "name": "Algae Removed",
+      "code": "tra",
+      "type" : "counter"
+    },
     { "name": "Pickup From",
       "code": "tpu",
       "type": "radio",
@@ -158,13 +162,6 @@ var config_data = `
       "code": "opp",
       "type": "bool"
     }
-    { "name": "Algae Left in Reef",
-      "code": "alr",
-      "type": "number",
-      "min": 0,
-      "max": 9,
-      "defaultValue": 0
-    },
     { "name": "Driver Skill",
       "code": "ds",
       "type": "radio",
