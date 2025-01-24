@@ -82,7 +82,6 @@ var config_data = `
             "code": "asl",
             "type": "clickable_image",
             "filename": "2025/field_image.png",
-            "clickRestriction": "five",
             "allowableResponses": "3 4 15 16 27 28 39 40 52 53 64 65",
             "shape": "circle 5 black red true"
         },
