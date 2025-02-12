@@ -106,12 +106,12 @@ var config_data = `
             "type": "counter"
         },
         {
-            "name": "Processor Score",
+            "name": "Algae in Processor",
             "code": "aps",
             "type": "counter"
         },
         {
-            "name": "Net Score",
+            "name": "Algae in Net",
             "code": "ans",
             "type": "counter"
         },
