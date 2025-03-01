@@ -9,15 +9,9 @@ var config_data = `
       "code": "t",
       "type": "number"
     },
-    { "name": "Width",
-      "code": "wid",
-      "type": "number",
-      "defaultValue": "0"
-    },
-    { "name": "Weight",
-      "code": "wei",
-      "type": "number",
-      "defaultValue": "0"
+    { "name": "Can fit between cages",
+      "code": "cag",
+      "type": "bool"
     },
     { "name": "Drivetrain",
       "code": "drv",
@@ -37,40 +31,50 @@ var config_data = `
       "size": 20,
       "maxSize": 50
     },
-    { "name": "Swerve Ratio",
-      "code": "sr",
-      "type": "radio",
-      "choices": {
-        "1": "L1 (8.14:1)<br>",
-        "2": "L2 (6.75:1)<br>",
-        "3": "L3 (6.12:1)<br>",
-        "4": "L4 (5.14:1)<br>",
-        "o": "Other ratio (put in comments)<br>",
-        "x": "Not Swerve"
-      },
-      "defaultValue":"x"
-    },
-    { "name": "Drivetrain Motor",
-      "code": "mot",
-      "type": "radio",
-      "choices": {
-        "n": "Neo<br>",
-        "f": "Falcon<br>",
-        "c": "CIM<br>",
-        "x": "Other<br>"
-      },
-      "defaultValue":"x"
-    },
     { "name": "# of Batteries",
       "code": "nob",
       "type": "number"
+    },
+    { "name": "Design Process",
+      "code": "des",
+      "type": "text",
+      "size": 20,
+      "maxSize": 250
     },
     { "name": "Floor pickup Coral",
       "code": "fpu",
       "type": "bool"
     },
+    { "name": "Coral L1",
+      "code": "cl1",
+      "type": "bool"
+    },
+    { "name": "Coral L2",
+      "code": "cl2",
+      "type": "bool"
+    },
+    { "name": "Coral L3",
+      "code": "cl3",
+      "type": "bool"
+    },
+    { "name": "Coral L4",
+      "code": "cl4",
+      "type": "bool"
+    },
     { "name": "Floor pickup Algae",
       "code": "fpa",
+      "type": "bool"
+    },
+    { "name": "Processor",
+      "code": "pro",
+      "type": "bool"
+    },
+    { "name": "Net",
+      "code": "net",
+      "type": "bool"
+    },
+    { "name": "Remove Algae",
+      "code": "ral",
       "type": "bool"
     },
     { "name": "Autos",
@@ -79,8 +83,8 @@ var config_data = `
       "size": 20,
       "maxSize": 250
     },
-    { "name": "Scouting Method /<br>Program (ScoutingPASS?)",
-      "code": "sct",
+    { "name": "Robot Name",
+      "code": "nam",
       "type": "text",
       "size": 20,
       "maxSize": 250
