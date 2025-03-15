@@ -31,7 +31,7 @@ var config_data = `
       "size": 20,
       "maxSize": 50
     },
-    { "name": "# of Batteries",
+    { "name": "# of Batteries in pit",
       "code": "nob",
       "type": "number"
     },
@@ -45,19 +45,19 @@ var config_data = `
       "code": "fpu",
       "type": "bool"
     },
-    { "name": "Coral L1",
+    { "name": "Scores Coral L1?",
       "code": "cl1",
       "type": "bool"
     },
-    { "name": "Coral L2",
+    { "name": "Scores Coral L2?",
       "code": "cl2",
       "type": "bool"
     },
-    { "name": "Coral L3",
+    { "name": "Scores Coral L3?",
       "code": "cl3",
       "type": "bool"
     },
-    { "name": "Coral L4",
+    { "name": "Scores Coral L4?",
       "code": "cl4",
       "type": "bool"
     },
@@ -65,15 +65,15 @@ var config_data = `
       "code": "fpa",
       "type": "bool"
     },
-    { "name": "Processor",
+    { "name": "Scores in Processor?",
       "code": "pro",
       "type": "bool"
     },
-    { "name": "Net",
+    { "name": "Scores in Net?",
       "code": "net",
       "type": "bool"
     },
-    { "name": "Remove Algae",
+    { "name": "Can Remove Algae?",
       "code": "ral",
       "type": "bool"
     },
