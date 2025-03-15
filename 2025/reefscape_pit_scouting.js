@@ -5,6 +5,13 @@ var config_data = `
   "page_title": "REEFSCAPE",
   "pitConfig": "true",
   "prematch": [
+    {"name": "Scouter Initials",
+     "code": "s",
+     "type": "scouter",
+     "size": 5,
+     "maxSize": 5,
+     "required": "true"
+    },
     { "name": "Team Number",
       "code": "t",
       "type": "number"
