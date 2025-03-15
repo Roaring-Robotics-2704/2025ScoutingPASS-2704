@@ -26,7 +26,7 @@ var config_data = `
       "choices": {
         "s": "Swerve<br>",
         "w": "West Coast/Tank<br>",
-        "b": "Butterfly/Grashopper<br>",
+        "b": "Butterfly/Grasshopper<br>",
         "m": "Mechanum<br>",
         "o": "Other"
       },
