@@ -91,7 +91,7 @@ var config_data = `
       "maxSize": 250
     },
     { "name": "Climb",
-      "code": "clim",
+      "code": "cli",
       "type": "radio",
       "choices": {
         "d": "Deep Climb<br>",
