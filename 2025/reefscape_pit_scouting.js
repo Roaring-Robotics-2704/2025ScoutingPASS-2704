@@ -90,6 +90,16 @@ var config_data = `
       "size": 20,
       "maxSize": 250
     },
+    { "name": "Climb",
+      "code": "clim",
+      "type": "radio",
+      "choices": {
+        "d": "Deep Climb<br>",
+        "s": "Shallow Climb<br>",
+        "n": "No Climb<br>"
+      },
+      "defaultValue": "n"
+    },
     { "name": "Robot Name",
       "code": "nam",
       "type": "text",
