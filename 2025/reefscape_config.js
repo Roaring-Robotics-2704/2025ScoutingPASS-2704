@@ -17,7 +17,7 @@ var config_data = `
             "name": "Event",
             "code": "e",
             "type": "event",
-            "defaultValue": "2025wila",
+            "defaultValue": "2025wimi",
             "required": "true"
         },
         {
